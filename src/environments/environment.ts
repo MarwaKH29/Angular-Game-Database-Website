@@ -2,8 +2,12 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+
+// API_KEY 5ed0b41a79c7405dbb312af82d09516d
+
 export const environment = {
-  production: false
+  production: false,
+  BASE_URL: 'https://api.rawg.io/api'
 };
 
 /*
